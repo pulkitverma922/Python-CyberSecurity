@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import requests
 #import os
 from datetime import datetime
@@ -50,10 +44,3 @@ with open("textfile.txt" , mode= 'w' ,encoding= 'utf-8') as f :
     f.write("{},{},{} \n".format("Current Humidity      :",txtlist[2],"%"))
     f.write("{},{},{} \n".format("Current wind speed    :",txtlist[3],"kmph"))
     f.write("*********************")
-
-
-# In[ ]:
-
-
-
-
